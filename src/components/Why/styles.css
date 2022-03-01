@@ -1,0 +1,22 @@
+.horizontal-scroll{
+   display: flex;
+    gap: 5px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    width: 100%;
+   box-sizing: border-box;
+   box-shadow: 20px;
+   
+}
+*{
+
+}
+
+.item {
+  display: flex;
+  flex: 0 0 320px;
+  justify-content: center;
+  scroll-snap-align: start;
+}
